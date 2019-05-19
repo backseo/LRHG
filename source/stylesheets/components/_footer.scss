@@ -25,17 +25,14 @@
 }
 
 .list-menu a {
-  background: rgba(255, 255, 255, 0.1);
+  font-size: 1.4rem;
   color: $gray;
   padding: 0px 10px;
   transition: all ease-in-out 300ms;
 
 }
-.list-menu a:hover {
-background: rgba(200, 200, 200, 0.1);
-  border-radius: 2px;
-  opacity: 0.3;
-  color: $red;
+.list-menu a:hover {  opacity: 0.3;
+  color: $white;
   opacity: 1;
   text-decoration: none;
   transition: all ease-in-out 300ms;

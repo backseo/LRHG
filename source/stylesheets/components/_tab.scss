@@ -3,14 +3,13 @@
   background-color: $orange;
 }
 
-.tabs-item a,
-.tabs-item {
+.tabs-item,
+.tabs-item a {
   font-size: 1.4rem;
   font-family: $headers-font;
   padding: 8px 8px;
   color: black;
-  color: black;
-  text-decoration: none;
+  cursor: pointer;
   transition: all ease-in-out 200ms;
 }
 

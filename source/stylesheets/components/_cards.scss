@@ -19,14 +19,14 @@
 }
 
 .cards:hover {
-  border: 2px $white solid;
   background: linear-gradient(155deg,
     rgba(0, 120, 0, 0.7) 0%,
     rgba(255, 205, 0, 1) 70%);
+  transform: scale(0.95);
 }
 
 .cards-category {
-  font-size: 1em;
+  font-size: 0.8em;
   position: absolute;
   color: white;
   position: absolute;
@@ -34,7 +34,7 @@
   left: 10px;
 }
 .cards-title h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   position: absolute;
   top: 20px;
@@ -46,4 +46,19 @@
   position: absolute;
   bottom: 2px;
   right: 2px;
+}
+
+#contact {
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact p {
+  position: absolute;
+  left: 69px;
+  top: 22px;
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
 }

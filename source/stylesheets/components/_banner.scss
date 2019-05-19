@@ -8,13 +8,17 @@ background-position: center;
 display: flex;
 justify-content: space-around;
 text-align: center;
-
+color: white;
 }
 
 .banner h1 {
-  font-weight: lighter;
-  color: rgba(255,255,255,0.9);
   margin-bottom: 20px;
+  margin-top: 150px;
+  font-weight: bolder;
+}
+
+.banner h3 {
+  opacity: 0.8;
 }
 
 .banner h4 {
