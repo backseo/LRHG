@@ -1,15 +1,10 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Acme|Roboto+Condensed:300i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed:300i');
 
 // Define fonts for body and headers
-$headers-font: "Acme", "sans-serif";
+$headers-font: "Montserrat", "sans-serif";
 $body-font: "Roboto Condensed", "sans-serif";
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $headers-font;
-}
 
-html body {
-  font-family: $body-font;
-  background: #FFAE00;
-}
+
+

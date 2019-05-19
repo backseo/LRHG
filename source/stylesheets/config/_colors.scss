@@ -1,6 +1,7 @@
 // Define variables for your color scheme
 
 // For example:
+$white: #fff;
 $grey: #F3F3F3;
 $darker-grey: #e5e5e5;
 $gray: #000000;
@@ -9,6 +10,25 @@ $red: #F8AC00;
 $blue: #469AE0;
 $green: #32B796;
 
-$yellow: #ffcd00;
-$yellow-light: #ffe100;
+$yellow: #fff200;
 $orange: #FFAE00;
+$orange-light: #ffcd00;
+
+/* dégradé des dropdowns*/
+$menu-gradient: linear-gradient(155deg,
+    rgba(0, 174, 0, 0.7) 0%,
+    rgba(255, 205, 0, 0.9) 60%);
+
+$bg-gradient: linear-gradient(155deg,
+    rgba(0, 174, 0, 1) 0%,
+    rgba(255, 205, 0, 0.9) 60%);
+
+$grey-gradient: linear-gradient(180deg,
+    rgba(100, 100, 100, 1) 0%,
+    rgba(225, 225, 225, 0.8) 50%,
+    rgba(155, 155, 155, 1) 100%);
+
+$yellow-gradient: linear-gradient(165deg,
+    rgba(255, 205, 0, 0.8) 0%,
+    rgba(180, 150, 150, 0.9) 60%,
+    rgba(0, 140, 0, 0.7) 100%);

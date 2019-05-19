@@ -1,0 +1,174 @@
+.side-menu {
+  position: fixed;
+  top: 126px;
+  left: -246px; /* -240 */
+  z-index: 10;
+  counter-reset: menulist;
+  width: 280px;
+  height: 270px;
+  background: $bg-gradient;
+  border-radius: 4px;
+  border-top: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  cursor: pointer;
+  transition: all ease-in-out 300ms;
+}
+
+.side-menu:hover {
+  left: 0px;
+}
+
+.cdrfbox-miel {
+  background: $orange;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 439px;
+  padding: 0 8px;
+}
+
+#ico-menu-miel {
+  position: absolute;
+  top: 100px;
+  right: 8px;
+}
+
+.side-menu ul {
+  position: absolute;
+  min-width: 220px;
+  left: 4px;
+  bottom: 0px;
+  background: $grey-gradient;
+  padding: 4px 4px 4px 8px; ;
+  margin-left: 8px;
+  list-style: none;
+  border-radius: 4px;
+  box-shadow: inset $box-shadow;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: lighter;
+}
+
+.side-menu a:hover {
+  font-weight: bolder;
+  color: $white;
+}
+
+.side-menu h4 {
+  position: absolute;
+  top: -4px;
+  left: 40px;
+}
+
+.side-menu li:before {
+  counter-increment: menulist;
+  content: counter(menulist);
+  font-size: 1rem;
+  left: 4px;
+}
+
+.main-miels {
+  position: relative;
+  background: $yellow;
+  box-shadow: $box-shadow;
+  border-radius: 4px;
+  padding: 1px 6px 6px 6px;
+  margin-bottom: 20px;
+  background: $menu-gradient;
+}
+
+.section-miels {;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px black solid;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 4px;
+  background: $white;
+  font-size: 1.4rem;
+  color: black;
+  width: 98%;
+}
+
+.section-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 2px;
+  background: $yellow-gradient;
+}
+
+.section-up img{
+  border-radius: 3px;
+  margin: 4px 0px 4px 0px;
+  height: auto;
+  max-width: 100%;
+}
+
+.section-up p{
+  text-indent: 2rem;
+  margin: 4px 0px 4px 10px;
+}
+
+.section-bottom {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.miel-250 {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  font-weight: bolder;
+  border-radius: 50%;
+  background: $white;
+  border: 6px $orange solid;
+  padding: 2px;
+  margin: 4px 8px;
+}
+
+.miel-250 span {
+  position: absolute;
+  top: 25px;
+  left: 13px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.miel-500 {
+  position: relative;
+  width: 120px;
+  height: 80px;
+  font-weight: bolder;
+  border-radius: 50%;
+  background: $white;
+  border: 6px $orange solid;
+  padding: 2px;
+  margin: 4px 8px;
+}
+
+.miel-500 span {
+  position: absolute;
+  top: 25px;
+  left: 13px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.miel {
+  opacity: 1;
+}
+

@@ -1,45 +1,34 @@
-<div class="navbar-lrhg" data-aos="slide-down">
+<div class="navbar-lrhg">
   <!-- Logo -->
-  <a href="#" class="navbar-lrhg-brand">
-  <%= image_tag "../images/Logo-ruchers_022.png", alt: "LRHG" %>
-  </a>
+  <a href="http://localhost:4567" class="navbar-lrhg-brand"><img src="../images/Logo-ruchers_022.png"></a>
   <%= partial 'layouts/components/tab' %>
   <!-- Right Navigation -->
   <div class="navbar-lrhg-right">
-
-    <!-- Profile picture with dropdown list -->
     <div class="navbar-lrhg-item">
       <div class="dropdown">
-
-        <img src="images/#" id="navbar-lrhg-menu" data-toggle="dropdown">
-
+        <img src="images/miels2.JPG" id="navbar-lrhg-menu" data-toggle="dropdown" height="60">
         <ul class="dropdown-menu dropdown-menu-right navbar-lrhg-dropdown-menu">
           <li>
             <a href="#">Protection des abeilles.</a>
           </li>
-
           <li>
             <a href="#">Protection des apiculteurs.</a>
           </li>
-
           <li>
             <a href="#">Sauver la planète.</a>
           </li>
-
-
-
         </ul>
-      </div>
-    </div>
-  </div>
+      </div><!-- Fin dropdown -->
+    </div><!-- Fin navbar-lrhg-item -->
+  </div><!-- Fin navbar-lrhg-right -->
 
   <!-- Dropdown appearing on mobile only -->
-  <div class="navbar-lrhg-item hidden-md hidden-lg">
+  <div class="navbar-lrhg-item">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu
                 dropdown-menu-right
-    navbar-lrhg-dropdown-menu">
+                navbar-lrhg-dropdown-menu">
         <li><a href="#.html">Les miels</a></h1><h1></li>
         <li><a href="#.html">Les senteurs</a></h1><h1></li>
         <li><a href="#.html">Les douceurs, envies</a></h1><h1></li>
@@ -50,4 +39,4 @@
       </ul>
     </div>
   </div>
-</div>
+</div><!-- Fin navbar-lrhg -->
