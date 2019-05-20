@@ -20,23 +20,6 @@
   left: 0px;
 }
 
-.cdrfbox-miel {
-  background: $orange;
-  display: flex;
-  justify-content: space-around;
-  vertical-align: center;
-  flex-wrap: wrap;
-  width: 100%;
-  min-height: 439px;
-  padding: 0 8px;
-}
-
-#gif-menu-miel {
-  position: absolute;
-  top: 100px;
-  right: 8px;
-}
-
 .side-menu ul {
   position: absolute;
   min-width: 220px;
@@ -76,14 +59,39 @@
   font-size: 1.2rem;
 }
 
+.cdrfbox-miel {
+  background: $orange;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 439px;
+  padding: 0 8px;
+  font-size: 1.5rem;
+  text-indent: 2rem;
+}
+
+.container h2 {
+  text-indent: none;
+}
+
+#gif-menu {
+  position: absolute;
+  top: 100px;
+  right: 8px;
+}
+
+
+
 .main-miels {
   position: relative;
   background: $yellow;
   box-shadow: $box-shadow;
   border-radius: 4px;
   padding: 1px 6px 6px 6px;
-  margin-bottom: 20px;
-  background: $menu-gradient;
+  margin-bottom: 200px;
+  background: $menu-gradient2;
 }
 
 .section-miels {;
@@ -95,7 +103,7 @@
   border-radius: 4px;
   margin: 20px auto;
   padding: 4px;
-  background: $white;
+  background: $grey-gradient;
   font-size: 1.4rem;
   color: black;
   width: 98%;
@@ -103,26 +111,17 @@
 
 .section-up {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 4px;
   margin: 2px;
-  background: $yellow-gradient;
+  background: $white;
+  box-shadow: $box-shadow;
 }
 
-.section-up img{
-  border-radius: 3px;
-  margin: 4px 0px 4px 0px;
-  height: auto;
-  max-width: 100%;
-}
 
-.section-up p{
-  text-indent: 2rem;
-  margin: 4px 0px 4px 10px;
-}
 
 .section-bottom {
   display: flex;
@@ -132,41 +131,46 @@
 
 .miel-250 {
   position: relative;
-  width: 120px;
-  height: 80px;
+  width: 110px;
+  height: 40px;
   font-weight: bolder;
-  border-radius: 50%;
+  border-radius: 25%;
   background: $white;
-  border: 6px $orange solid;
+  box-shadow: $box-shadow;
+  border: 1px $orange solid;
   padding: 2px;
   margin: 4px 8px;
+  text-indent: none;
+  font-size: 1.1rem;
 }
 
 .miel-250 span {
   position: absolute;
-  top: 25px;
-  left: 13px;
-  font-size: 1.2rem;
+  top: 12px;
+  left: 8px;
   font-weight: bolder;
+
 }
 
 .miel-500 {
   position: relative;
-  width: 120px;
-  height: 80px;
+  width: 110px;
+  height: 40px;
   font-weight: bolder;
-  border-radius: 50%;
+  border-radius: 25%;
   background: $white;
-  border: 6px $orange solid;
+  box-shadow: $box-shadow;
+  border: 1px $orange solid;
   padding: 2px;
   margin: 4px 8px;
+  text-indent: none;
+  font-size: 1.1rem;
 }
 
 .miel-500 span {
   position: absolute;
-  top: 25px;
-  left: 13px;
-  font-size: 1.2rem;
+  top: 12px;
+  left: 8px;
   font-weight: bolder;
 }
 

@@ -12,24 +12,34 @@
 
 .myfooter {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 50px;
   background-color: $orange;
 }
 
+.centree {
+  margin: 0 auto;
+}
+
+.coords {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .list-menu {
   color: black;
-  font-weight: bolder;
-  margin: 8px 2px 8px 2px;
+}
+
+.list-menu ul {
+  list-style: square;
 }
 
 .list-menu a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: $gray;
-  padding: 0px 10px;
   transition: all ease-in-out 300ms;
-
 }
 .list-menu a:hover {  opacity: 0.3;
   color: $white;
@@ -37,9 +47,13 @@
   text-decoration: none;
   transition: all ease-in-out 300ms;
 }
-
-.centree {
-  margin: 0 auto;
+.list-menu-gafa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
 }
+
+
 
 
