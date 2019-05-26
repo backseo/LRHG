@@ -21,15 +21,16 @@
   transition: all ease-in-out 400ms;
 }
 
-/* Right section */
+/* small menu Right section */
 .navbar-lrhg-right {
   display: flex;
   justify-content: space-around;
   align-items: center;
   float: right;
+  cursor: pointer;
 }
 
-/* Basic navbar item */
+/* Hamburger right navbar item */
 .navbar-lrhg-item {
   cursor: pointer;
   padding: 0 20px;

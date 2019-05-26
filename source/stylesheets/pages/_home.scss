@@ -1,15 +1,25 @@
 .cdrfbox {
   background: url(../images/alveol1.png);
+  background-position: bottom;
   display: flex;
   justify-content: space-around;
   vertical-align: center;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 439px;
+  min-height: 40vh;
+  padding-bottom: 60px;
 }
 
-.miel {
-  opacity: 1;
+.menu-cards-title {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 0px 20px;
+  padding-bottom: 12px;
+  color: black;
+  background: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  height: 45px;
 }
 
 section {
