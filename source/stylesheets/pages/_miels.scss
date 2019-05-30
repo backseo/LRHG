@@ -15,6 +15,10 @@
   transition: all ease-in-out 300ms;
 }
 
+.intro {
+  margin-left: 30px;
+}
+
 /* menu translateX */
 .side-menu:hover {
   left: 0px;
@@ -90,15 +94,11 @@
   box-shadow: $box-shadow;
   border-radius: 4px;
   padding: 1px 6px 6px 6px;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
   background: $menu-gradient2;
 }
 
 .section-miels {;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
   border: 1px black solid;
   border-radius: 4px;
   margin: 20px auto;
@@ -107,18 +107,19 @@
   font-size: 1.4rem;
   color: black;
   width: 98%;
+
 }
 
 .section-up {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   border-radius: 4px;
-  padding: 4px;
+  padding: 8px 2rem;
   margin: 2px;
   background: $white;
-  box-shadow: $box-shadow;
+  box-shadow: inset $box-shadow;
 }
 
 

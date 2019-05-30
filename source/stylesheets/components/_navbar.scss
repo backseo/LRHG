@@ -9,16 +9,15 @@
   background-color: $orange-dark;
   z-index: 10;
   box-shadow: $box-shadow;
-  transition: all ease-in-out 400ms;
+  transition: all ease-in-out 1000ms;
 }
 
 /* Logo */
 .navbar-lrhg-brand img {
-  background: white;
-  border: 10px white solid;
+  border-radius: 2px;
   margin: 20px;
   height: 90px;  ;
-  transition: all ease-in-out 400ms;
+  transition: all ease-in-out 500ms;
 }
 
 /* small menu Right section */

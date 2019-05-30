@@ -1,3 +1,4 @@
+/* menu translateX */
 .side-menu-about {
   position: fixed;
   top: 126px;
@@ -15,7 +16,7 @@
   transition: all ease-in-out 300ms;
 }
 
-/* menu translateX */
+
 .side-menu-about:hover {
   left: 0px;
 }
@@ -66,22 +67,21 @@
 .main-about-flex {
   background: $orange;
   border-radius: 4px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 4px;
+  padding: 8px 8px;
+  margin: 10px 0px;
   border: 1px black solid;
 }
 
 .div-texte {
   background: $white;
   padding: 10px 10px 0px 10px;
-  margin: 0 auto;
   margin-top: 5px;
   font-size: 1.2rem;
-  border-radius: 2px;
+  text-indent: 2rem;
+  text-align: justify;
+  flex: 1 0 auto;
 }
+
 .div-texte h4 {
   border: 1px black solid;
   background: $orange;
@@ -94,6 +94,33 @@
   background: purple;
   padding: 2px 2px 2px 2px;
   margin: 0 auto;
+  background: white;
+  border-radius: 2px;
+}
+
+.bloc-ref {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: white;
+  margin: 8px 4px;
+  border-radius: 2px;
+}
+
+.div-texte-ref {
+  background: $white;
+  padding: 10px 10px 0px 10px;
+  margin-top: 5px;
+  font-size: 1.2rem;
+  text-indent: 2rem;
+  text-align: center;
+  flex: 50% 0 auto;
+}
+.divimages-ref {
+  padding: 2px 2px 2px 2px;
+  border-radius: 2px;
+  float: right;
 }
 
 .dplan {

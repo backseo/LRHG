@@ -15,11 +15,20 @@
 @import "pages/index";
 @import "aos/aos";
 
-.see-it {
-  border: 3px green solid;
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /*decalage de hauteur de la navigation */
 .nav-offset-top {
   height: 120px;
 }
+
+.anchor-offset-top {
+  height: 60px;
+}
+
