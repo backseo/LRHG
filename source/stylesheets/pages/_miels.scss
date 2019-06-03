@@ -15,10 +15,6 @@
   transition: all ease-in-out 300ms;
 }
 
-.intro {
-  margin-left: 30px;
-}
-
 /* menu translateX */
 .side-menu:hover {
   left: 0px;
@@ -63,6 +59,13 @@
   font-size: 1.2rem;
 }
 
+#gif-menu {
+  position: absolute;
+  top: 100px;
+  right: 8px;
+}
+
+/*cadre principal*/
 .cdrfbox-miel {
   background: $orange;
   display: flex;
@@ -70,23 +73,9 @@
   vertical-align: center;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 439px;
   padding: 0 8px;
   font-size: 1.5rem;
-  text-indent: 2rem;
 }
-
-.container h2 {
-  text-indent: none;
-}
-
-#gif-menu {
-  position: absolute;
-  top: 100px;
-  right: 8px;
-}
-
-
 
 .main-miels {
   position: relative;
@@ -96,6 +85,16 @@
   padding: 1px 6px 6px 6px;
   margin-bottom: 20px;
   background: $menu-gradient2;
+}
+
+.main-miels img {
+  margin-bottom: 8px;
+  max-height: 400px;
+}
+
+.main-miels h2 {
+  text-align: center;
+  text-indent: none;
 }
 
 .section-miels {;
@@ -110,6 +109,7 @@
 
 }
 
+/*cadre blanc*/
 .section-up {
   display: flex;
   justify-content: center;
@@ -122,60 +122,34 @@
   box-shadow: inset $box-shadow;
 }
 
-
-
+/*cadre étiquettes*/
 .section-bottom {
   display: flex;
   justify-content: space-around;
   align-item: center;
-}
-
-.miel-250 {
-  position: relative;
-  width: 110px;
-  height: 40px;
-  font-weight: bolder;
-  border-radius: 25%;
-  background: $white;
-  box-shadow: $box-shadow;
-  border: 1px $orange solid;
-  padding: 2px;
-  margin: 4px 8px;
-  text-indent: none;
-  font-size: 1.1rem;
-}
-
-.miel-250 span {
-  position: absolute;
-  top: 12px;
-  left: 8px;
-  font-weight: bolder;
-
-}
-
-.miel-500 {
-  position: relative;
-  width: 110px;
-  height: 40px;
-  font-weight: bolder;
-  border-radius: 25%;
-  background: $white;
-  box-shadow: $box-shadow;
-  border: 1px $orange solid;
-  padding: 2px;
-  margin: 4px 8px;
-  text-indent: none;
-  font-size: 1.1rem;
-}
-
-.miel-500 span {
-  position: absolute;
-  top: 12px;
-  left: 8px;
-  font-weight: bolder;
+  float: right;
 }
 
 .miel {
   opacity: 1;
 }
 
+.ballotins-links {
+  text-align: center;
+  margin: 10px 0px;
+  & a {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-miels img {
+  margin-bottom: 8px;
+  height: auto;
+  width: 100%;
+  }
+
+  .main-miels h2 {
+    font-size: 2rem;
+  }
+}
