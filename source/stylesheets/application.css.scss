@@ -17,6 +17,7 @@
 
 html {
   box-sizing: border-box;
+  background: $orange;
 }
 
 *, *:before, *:after {
@@ -26,9 +27,11 @@ html {
 /*decalage de hauteur de la navigation */
 .nav-offset-top {
   height: 120px;
+  background: transparent;
 }
 
 .anchor-offset-top {
   height: 60px;
+  background: transparent;
 }
 

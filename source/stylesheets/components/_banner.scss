@@ -2,7 +2,7 @@
 background: linear-gradient(135deg,
     rgba(0,0,0,0.8) 0%,
     rgba(0,0,0,0.3) 50%),
-url(../../images/banner1.jpg);
+url(../../images/banner2.jpg);
 background-size: cover;
 background-position: center;
 display: flex;
@@ -18,26 +18,20 @@ color: white;
 }
 
 .banner h3 {
-  opacity: 0.8;
+  font-weight: bolder;
 }
-
-.banner h4 {
-  font-weight: lighter;
-  color: rgba(255,255,255,0.8);
-  margin-bottom: 40px;
-}
-
 
 .btn-warning {
-  background-color: #ffcc00;
+  background-color: $orange;
   font-weight: 900;
 }
 
 .btn-warning:hover {
     color: #fff;
-    background-color: #ffdd00;
+    background-color: $orange-dark;
     border-radius: 5px;
-    transition: all ease-in-out 500ms;
+    transition: all ease-in-out 200ms;
+    transform: scale(0.9);
 }
 
 .reveal {

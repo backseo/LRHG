@@ -1,8 +1,8 @@
-.intro-sante {
+.intro-douceur {
   text-align: center;
 }
 
-.side-menu-sante {
+.side-menu-douceur {
   position: fixed;
   top: 126px;
   left: -246px; /* -246 */
@@ -19,11 +19,11 @@
   transition: all ease-in-out 300ms;
 }
 
-.side-menu-sante:hover {
+.side-menu-douceur:hover {
   left: 0px;
 }
 
-.side-menu-sante ul {
+.side-menu-douceur ul {
   position: absolute;
   min-width: 220px;
   left: 4px;
@@ -36,33 +36,33 @@
   box-shadow: inset $box-shadow;
 }
 
-.side-menu-sante a {
+.side-menu-douceur a {
   text-decoration: none;
   font-size: 1.5rem;
   color: black;
   font-weight: lighter;
 }
 
-.side-menu-sante a:hover {
+.side-menu-douceur a:hover {
   font-weight: bolder;
   color: $white;
 }
 
-.side-menu-sante h4 {
+.side-menu-douceur h4 {
   position: absolute;
   top: -4px;
   left: 40px;
   font-size: 1.4rem;
 }
 
-.side-menu-sante li:before {
+.side-menu-douceur li:before {
   position: relative;
   counter-increment: menulist;
   content: counter(menulist)" ";
   font-size: 1.2rem;
 }
 
-#gif-menu-sante {
+#gif-menu-douceur {
   position: absolute;
   top: 50px;
   right: 8px;

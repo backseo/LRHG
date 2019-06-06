@@ -97,6 +97,7 @@
   text-indent: none;
 }
 
+/*cadre gris*/
 .section-miels {;
   border: 1px black solid;
   border-radius: 4px;
@@ -112,7 +113,7 @@
 /*cadre blanc*/
 .section-up {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   border-radius: 4px;
@@ -122,12 +123,28 @@
   box-shadow: inset $box-shadow;
 }
 
+.section-up-left {
+  float: left;
+  justify: center;
+}
+
+.section-up-right {
+  float: right;
+  min-width: 320px;
+  max-width: 50%;
+  flex: 1 0 auto;
+}
+
+.section-up p {
+  font-size: 1.6rem;
+  text-indent: 2rem;
+}
+
 /*cadre étiquettes*/
 .section-bottom {
   display: flex;
   justify-content: space-around;
   align-item: center;
-  float: right;
 }
 
 .miel {
@@ -136,9 +153,9 @@
 
 .ballotins-links {
   text-align: center;
-  margin: 10px 0px;
+  margin: 20px 0px;
   & a {
-    text-decoration: none;
+  color: black;
   }
 }
 
@@ -151,5 +168,9 @@
 
   .main-miels h2 {
     font-size: 2rem;
+  }
+
+  .section-up p {
+  font-size: 1.2rem;
   }
 }
