@@ -1,7 +1,7 @@
 .side-menu {
   position: fixed;
   top: 126px;
-  left: -246px; /* -246 */
+  left: -250px; /* -246 */
   z-index: 10;
   counter-reset: menulist;
   width: 280px;
@@ -79,17 +79,16 @@
 
 .main-miels {
   position: relative;
-  background: $yellow;
   box-shadow: $box-shadow;
   border-radius: 4px;
   padding: 1px 6px 6px 6px;
-  margin-bottom: 20px;
   background: $menu-gradient2;
 }
 
 .main-miels img {
   margin-bottom: 8px;
-  max-height: 400px;
+  max-height: 300px;
+  border-radius: 4px;
 }
 
 .main-miels h2 {
@@ -98,16 +97,16 @@
 }
 
 /*cadre gris*/
-.section-miels {;
+.section-miels {
   border: 1px black solid;
   border-radius: 4px;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 4px;
   background: $grey-gradient;
   font-size: 1.4rem;
   color: black;
   width: 98%;
-
+  min-height: 250px;
 }
 
 /*cadre blanc*/
@@ -118,26 +117,36 @@
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 8px 2rem;
-  margin: 2px;
+  margin: 0 auto;
   background: $white;
   box-shadow: inset $box-shadow;
 }
 
 .section-up-left {
+  margin: 0 auto;
   float: left;
   justify: center;
+
 }
 
 .section-up-right {
   float: right;
-  min-width: 320px;
-  max-width: 50%;
-  flex: 1 0 auto;
+  margin: 0 auto;
+  max-width: 45%;
+  background: white;
+  border-radius: 4px;
+  padding-right: 12px;
 }
 
-.section-up p {
-  font-size: 1.6rem;
-  text-indent: 2rem;
+.section-up-right p {
+  font-family: $headers-font;
+  margin: 10px;
+  font-size: 1.618rem;
+  text-indent: 4rem;
+  text-align: justify;
+  padding-left: 20px;
+  line-height: 22px;
+  color: black;
 }
 
 /*cadre étiquettes*/
@@ -145,6 +154,7 @@
   display: flex;
   justify-content: space-around;
   align-item: center;
+  height: 20px;
 }
 
 .miel {
@@ -153,24 +163,43 @@
 
 .ballotins-links {
   text-align: center;
-  margin: 20px 0px;
+  margin: 20px 0px 20px 0px;
   & a {
   color: black;
   }
 }
 
-@media (max-width: 640px) {
-  .main-miels img {
-  margin-bottom: 8px;
-  height: auto;
-  width: 100%;
+@media (max-width: 768px) {
+  .main-miels {
+    text-align: center;
+  }
+
+  .section-up-left img {
+      padding-bottom: 8px;
+      max-height:400px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+  .section-up-left {
+    align-items: justify;
   }
 
   .main-miels h2 {
     font-size: 2rem;
   }
 
-  .section-up p {
-  font-size: 1.2rem;
+  .section-up {
+
   }
+
+  .section-up-right {
+    max-width: 90%;
+  }
+
+  .section-up-right p {
+    font-size: 1.2rem;
+    color: blue;
+  }
+
 }
