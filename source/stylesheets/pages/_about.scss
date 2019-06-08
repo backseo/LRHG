@@ -16,6 +16,10 @@
   transition: all ease-in-out 300ms;
 }
 
+.main-miels {
+  margin: 40px 0px;
+}
+
 
 .side-menu-about:hover {
   left: 0px;
@@ -83,11 +87,11 @@
 }
 
 .div-texte h4 {
-  border: 1px black solid;
-  background: $orange;
+  background: $menu-gradient2;
   text-align: center;
   padding: 4px 0px;
   margin-bottom: 12px;
+  border-radius: 3px;
 }
 
 .divimages {
@@ -125,5 +129,5 @@
 }
 
 .dplan {
-
+  margin: 10px 10px 0px 10px;
 }

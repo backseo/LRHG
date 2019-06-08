@@ -194,12 +194,13 @@
   }
 
   .section-up-right {
-    max-width: 90%;
+    min-width: 90%;
   }
 
   .section-up-right p {
     font-size: 1.2rem;
-    color: blue;
+    text-align: left;
+    transform: scaleY(1.1);
   }
 
 }
