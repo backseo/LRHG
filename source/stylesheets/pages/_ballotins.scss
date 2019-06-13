@@ -1,7 +1,15 @@
-.ballotin {
-  display: flex;
-}
+.intro-ballotin h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
 
 .ballotin p {
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .intro-ballotin h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
 }

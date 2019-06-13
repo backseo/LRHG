@@ -1,4 +1,5 @@
-.intro-douceur {
+.intro-douceur h3 {
+  font-size: 3rem;
   text-align: center;
 }
 
@@ -66,4 +67,11 @@
   position: absolute;
   top: 50px;
   right: 8px;
+}
+
+@media (max-width: 768px) {
+  .intro-douceur h3 {
+    font-size: 2rem;
+  }
+
 }

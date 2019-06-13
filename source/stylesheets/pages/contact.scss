@@ -1,0 +1,12 @@
+.contact {
+  padding: 30px;
+  border: 1px white solid;
+  background: $menu-gradient;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 640px){
+  .action h3 {
+    font-size: 2.4rem;
+  }
+}

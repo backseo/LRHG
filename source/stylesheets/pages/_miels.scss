@@ -64,6 +64,11 @@
   right: 8px;
 }
 
+.intro-miel h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
 /*cadre principal*/
 .cdrfbox-miel {
   background: $orange;
@@ -179,7 +184,6 @@
     font-size: 2rem;
   }
 
-
   .section-up-right {
     max-width: 98%;
   }
@@ -190,5 +194,7 @@
     transform: scaleY(1.1);
     padding: 0px;
   }
-
+  .intro-miel h3 {
+    font-size: 2rem;
+  }
 }
