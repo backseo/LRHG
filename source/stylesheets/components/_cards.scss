@@ -52,13 +52,15 @@
   border-radius: 50%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #contact p {
-  position: absolute;
-  left: 69px;
-  top: 22px;
-  text-align: center;
+  margin-top: 18px;
   font-size: 1.7rem;
+  font-weight: lighter;
   color: white;
+  text-align: center;
 }
+
+
