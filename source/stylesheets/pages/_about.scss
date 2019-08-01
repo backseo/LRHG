@@ -20,7 +20,6 @@
   margin: 40px 0px;
 }
 
-
 .side-menu-about:hover {
   left: 0px;
 }
@@ -64,26 +63,12 @@
   font-size: 1.2rem;
 }
 
-.main-about-title {
-  text-align: center;
-}
-
 .main-about-flex {
   background: $orange;
   border-radius: 4px;
   padding: 8px 8px;
   margin: 10px 0px;
   border: 1px black solid;
-}
-
-.div-texte {
-  background: $white;
-  padding: 10px 10px 8px 10px;
-  margin: 15px 10px;
-  font-size: 1.6rem;
-  text-indent: 4rem;
-  text-align: justify;
-  flex: 1 0 auto;
 }
 
 .div-texte h4 {
@@ -94,13 +79,21 @@
   border-radius: 3px;
 }
 
-.divimages {
-  border: 1px red solid;
-  width: 100%;
-  padding: 2px 2px 2px 2px;
-  margin: 0 auto;
-  background: white;
+.div-texte {
+  background: $white;
+  padding: 10px 10px 8px 10px;
+  margin: 15px 10px;
+  font-size: 1.5rem;
+}
+
+.div-texte p {
+  text-indent: 4rem;
+  text-align: justify;
+}
+
+.imgabout {
   border-radius: 2px;
+  text-align: center;
 }
 
 .bloc-ref {
@@ -135,5 +128,7 @@
 @media (max-width: 640px) {
   .div-texte {
     font-size: 1.2rem;
+    text-align: left;
+    text-indent: 1;
   }
 }

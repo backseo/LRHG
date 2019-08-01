@@ -90,6 +90,14 @@
   background: $menu-gradient2;
 }
 
+.logo-title {
+  position: relative;
+  float: right;
+  top: 15px;
+  right: 10px;
+  height: 50px;
+}
+
 .main-miels img {
   margin-bottom: 8px;
   max-height: 300px;
@@ -196,5 +204,13 @@
   }
   .intro-miel h3 {
     font-size: 2rem;
+  }
+
+  .logo-title {
+  position: relative;
+  float: right;
+  top: 15px;
+  right: 5px;
+  height: 30px;
   }
 }
