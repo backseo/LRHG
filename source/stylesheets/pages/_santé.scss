@@ -5,9 +5,9 @@
   z-index: 10;
   counter-reset: menulist;
   width: 280px;
-  height: 150px;
+  height: 130px;
   background: $bg-gradient;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   border-top: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
@@ -54,13 +54,14 @@
 .side-menu-sante li:before {
   position: relative;
   counter-increment: menulist;
-  content: counter(menulist)" ";
+  content: counter(menulist)" / ";
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 #gif-menu-sante {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 8px;
 }
 

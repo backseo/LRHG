@@ -6,7 +6,7 @@
   z-index: 10;
   counter-reset: menulist;
   width: 280px;
-  height: 210px;
+  height: 180px;
   background: $bg-gradient;
   border-radius: 4px;
   border-top: 1px black solid;
@@ -59,7 +59,7 @@
 .side-menu-about li:before {
   position: relative;
   counter-increment: menulist;
-  content: counter(menulist)" ";
+  content: counter(menulist)" / ";
   font-size: 1.2rem;
 }
 

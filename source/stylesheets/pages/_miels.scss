@@ -1,3 +1,4 @@
+/*slide menu*/
 .side-menu {
   position: fixed;
   top: 126px;
@@ -5,9 +6,9 @@
   z-index: 10;
   counter-reset: menulist;
   width: 280px;
-  height: 270px;
+  height: 236px;
   background: $bg-gradient;
-  border-radius: 4px;
+  border-radius: 0px 4px 4px 0px;
   border-top: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
@@ -47,15 +48,16 @@
 .side-menu h4 {
   position: absolute;
   top: -4px;
-  left: 40px;
+  left: 60px;
   font-size: 1.4rem;
 }
 
 .side-menu li:before {
   position: relative;
   counter-increment: menulist;
-  content: counter(menulist)" ";
+  content: counter(menulist)" / ";
   font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 #gif-menu {
@@ -152,7 +154,7 @@
 
 .section-up-right p {
   margin: 10px 0px;
-  font-size: 1.618rem;
+  font-size: 2rem;
   text-indent: 2rem;
   text-align: justify;
   padding-left: 20px;
@@ -212,5 +214,22 @@
   top: 15px;
   right: 5px;
   height: 30px;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .section-up-left{
+    float: left;
+    width: 50%;
+  }
+
+  .section-up-right {
+    width: 50%;
+    float: right;
+    padding: 0px 10px;
+  }
+
+  .section-up-right p{
+    font-size: 1.4rem;
   }
 }
