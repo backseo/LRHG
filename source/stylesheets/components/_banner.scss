@@ -11,6 +11,11 @@ text-align: center;
 color: white;
 }
 
+.banner-content a {
+  margin-top: 40px;
+  font-weight: lighter;
+}
+
 .banner h1 {
   margin-bottom: 20px;
   margin-top: 180px;
@@ -18,7 +23,7 @@ color: white;
 }
 
 .banner h3 {
-  font-weight: bolder;
+  font-weight: lighter;
 }
 
 .btn-warning {

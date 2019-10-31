@@ -1,15 +1,13 @@
 // Import Google fonts
 // @import url('https://fonts.googleapis.com/css?family=Fjalla One|Roboto+Condensed:300i');
-@import url('https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Kaushan+Script&display=swap');
 
 // Define fonts for body and headers
 $headers-font: "Kaushan Script", "sans-serif";
-$body-font: 'Kalam', cursive;
+$body-font: 'Oxygen', cursive;
 
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $headers-font;
 }
-
-
