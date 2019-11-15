@@ -4,15 +4,16 @@
 }
 
 .tabs-item,
-.tabs-item a {
+.tabs-item span a {
   font-size: 1.4rem;
   padding: 8px 8px;
   color: black;
   cursor: pointer;
   transition: all ease-in-out 200ms;
+  text-decoration: none;
 }
 
-.tabs-item:hover {
+.tabs-item span a:hover {
   color: $white;
   transition: all ease-in-out 200ms;
 }
@@ -30,7 +31,6 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 18px 6px;
   z-index: 1;
-  text-align:center;
   left: 0;
   right: 0;
   border: 1px $white solid;
@@ -40,7 +40,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-  min-width: 130px;
+  min-width: 120px;
 }
 
 .dropdown-content a {
